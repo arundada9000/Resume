@@ -12,19 +12,6 @@ body {
   align-items: center;
 }
 
-@media (max-width: 600px) {
-  .container,
-  .contact ul {
-    flex-direction: column;
-  }
-
-  aside,
-  main {
-    padding: 10px;
-    border: none;
-  }
-}
-
 .container {
   position: relative;
   width: 100%;
@@ -245,4 +232,87 @@ hr {
 
 .custom-menu li:hover {
   background-color: grey;
+}
+
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  .container aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container aside,
+  .container main {
+    padding: 10px;
+  }
+
+  .image img {
+    object-position: center;
+  }
+
+  .contactInfo ul {
+    padding: 0;
+  }
+
+  .contact ul {
+    flex-direction: column;
+  }
+
+  .contact ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .employment-history ul,
+  .web-developer ul {
+    margin-left: 0;
+  }
+
+  .employment-history ul li,
+  .web-developer ul li {
+    margin-left: 0;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .profession {
+    text-align: center;
+  }
+
+  .right-title {
+    text-align: center;
+  }
+
+  .contactInfo.skills .percent,
+  .contactInfo.language .percent,
+  .contactInfo.software .percent {
+    width: 100%;
+    height: 8px;
+    background: #c1baba;
+    margin-top: 5px;
+  }
+
+  .reference {
+    justify-content: center;
+  }
 }
