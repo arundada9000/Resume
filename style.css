@@ -259,7 +259,7 @@ hr {
   }
 
   .image img {
-    object-position: center;
+    object-position: center top;
   }
 
   .contactInfo ul {
@@ -269,7 +269,10 @@ hr {
   .contact ul {
     flex-direction: column;
   }
-
+  .skills,
+  .language {
+    width: 90%;
+  }
   .contact ul li {
     display: flex;
     flex-direction: column;
@@ -314,5 +317,13 @@ hr {
 
   .reference {
     justify-content: center;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  i,
+  .text,
+  .details ul li {
+    font-size: 1.5rem;
   }
 }
