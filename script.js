@@ -72,7 +72,7 @@ document.addEventListener("click", () => {
 function downloadImage() {
   const link = document.createElement("a");
   link.href = document.getElementById("myImage").src;
-  link.download = "me.jpg";
+  link.download = "Arun.png";
   link.click();
 }
 
