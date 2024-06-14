@@ -63,15 +63,15 @@ Go to your repository on GitHub, and you will see a prompt to open a pull reques
 
 To host your files using GitHub Pages:
 
-- 1.Go to your repository on GitHub.
+- Go to your repository on GitHub.
 
-- 2. Click on the Settings tab.
+- Click on the Settings tab.
 
-- 3. Scroll down to the Pages section.
+- Scroll down to the Pages section.
 
-- 4. Under Source, select the branch you want to use (e.g., main or gh-pages).
+- Under Source, select the branch you want to use (e.g., main or gh-pages).
 
-- 5. Click Save.
+- Click Save.
 
 Your site will be published at https://your-username.github.io/your-repository/.
 
