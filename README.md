@@ -1,6 +1,6 @@
 # Branching a repository
 
-To Branch and existing repo you can you following command
+To Branch an existing repo you can you following command
 
 - git branch ( Check current working branch and list existing branches)
 - git checkout -b name (Creating a new branch )
